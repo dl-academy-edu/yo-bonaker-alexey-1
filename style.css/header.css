@@ -1,0 +1,23 @@
+.header {
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 112px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+   gap: 20px;
+}
+
+.header__topbar{
+    display: flex;
+}
+
+.header__list-link{
+  color: black;
+  text-decoration: none; 
+}
