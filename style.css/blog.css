@@ -1,0 +1,132 @@
+.blog {
+    max-width: 1400px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.switch-link {
+    text-decoration: none;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.switch-catalog {
+    margin-top: -10px;
+    padding-left: 74px;
+}
+
+.switch-catalog__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardf__list {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 110px;
+    max-width: 380px;
+}
+
+.cardf__list-item {
+    padding-right: 20px;
+}
+
+.cardt__list {
+    display: flex;
+    padding-left: 110px;
+    max-width: 380px;
+}
+
+.cardt__list-item {
+    padding-right: 20px;
+}
+
+.undertext {
+    margin-bottom: -10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+    mix-blend-mode: normal;
+} 
+
+.title-img {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+.text-img {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.switch-linkt {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.switch-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.switch__btn__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.switch-under {
+    padding-top: 50px;
+    padding-left: 480px;
+}
+
+.switch-linkt {
+    padding-left: 64px;
+}
+
+.switch-btn-item {
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.switch__btn {
+    margin-bottom: 63px;
+}
