@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css//header.css" />
-    <link rel="stylesheet" href="./style.css//norm.css" />
-    <link rel="stylesheet" href="./style.css//footer.css" />
-    <link rel="stylesheet" href="./style.css//catalog.css" />
+    <link rel="stylesheet" href="./style.css/header.css" />
+    <link rel="stylesheet" href="./style.css/normalize.css" />
+    <link rel="stylesheet" href="./style.css/footer.css" />
+    <link rel="stylesheet" href="./style.css/catalog.css" />
+    <link rel="stylesheet" href="./style.css/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -131,108 +132,106 @@
       </div>
     </main>
     <footer class="footer container">
-      <div class="container">
-        <span class="footer__title">Navigation</span>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">About Us</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Blog</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Design Services</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Featured On</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">2018 Holiday Catalog</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Shop By Designer</a>
-          </li>
-        </ul>
-        <!-- <div class="footer__under-block">
-          <ul class="footer__under-list">
-            <li class="under__list-item"><span>Company Rating</span></li>
-            <li class="under__list-item">
-              <span class="footer__under-block"
-                >Copyright © 2018 Dlk • Design Life Kids</span
-              >
+      <div class="wrapper">
+        <div class="container">
+          <span class="footer__title">Navigation</span>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">About Us</a>
             </li>
-            <li class="under__list-item">
-              <a class="footer__list-link" href="#"
-                >Web Design — Direct Line Development</a
-              >
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Blog</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Design Services</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Featured On</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">2018 Holiday Catalog</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Shop By Designer</a>
             </li>
           </ul>
-        </div> -->
-      </div>
-      <div class="container">
-        <span class="footer__title">Customer Information</span>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Contact Us</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Sale Exclusions</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Shipping & Returns</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Terms & Conditions</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Privacy Policy</a>
-          </li>
-          <li class="footer__list-item">
-            <a class="footer__list-link" href="#">Search</a>
-          </li>
-        </ul>
-      </div>
-      <div class="container">
-        <span class="footer__title">Connect</span>
-        <div class="footer__email">
-          <form action="#"><input class="footer-input" type="Email" placeholder="Email"></form>
-          <form><button class="footer-button" type="button">JOIN</button></form>
         </div>
-        <div class="badges container">
-          <ul class="badges__list">
+        <div class="container">
+          <span class="footer__title">Customer Information</span>
+          <ul class="footer__list">
             <li class="footer__list-item">
-              <a href="#" class="footer__list-link">
-                <img
-                  class="footer__list-img"
-                  src="Dl/facebook.svg"
-                  alt="Facebook"
-                />
-              </a>
+              <a class="footer__list-link" href="#">Contact Us</a>
             </li>
             <li class="footer__list-item">
-              <a href="#" class="footer__list-link">
-                <img
-                  class="footer__list-img"
-                  src="Dl/twitter.svg"
-                  alt="Twitter"
-                />
-              </a>
+              <a class="footer__list-link" href="#">Sale Exclusions</a>
             </li>
             <li class="footer__list-item">
-              <a href="#" class="footer__list-link">
-                <img
-                  class="footer__list-img"
-                  src="Dl/pinterest.svg"
-                  alt="Pinterest"
-                />
-              </a>
+              <a class="footer__list-link" href="#">Shipping & Returns</a>
             </li>
             <li class="footer__list-item">
-              <a href="#" class="footer__list-link">
-                <img class="footer__list-img" src="Dl/inst.svg" alt="Inst" />
-              </a>
+              <a class="footer__list-link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Search</a>
             </li>
           </ul>
+        </div>
+        <div class="container">
+          <span class="footer__title">Connect</span>
+          <div class="footer__email">
+            <form action="#"><input class="footer-input" type="Email" placeholder="Email"></form>
+            <form><button class="footer-button" type="button">JOIN</button></form>
+          </div>
+          <div class="badges container">
+            <ul class="badges__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img
+                    class="footer__list-img"
+                    src="Dl/facebook.svg"
+                    alt="Facebook"
+                  />
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img
+                    class="footer__list-img"
+                    src="Dl/twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img
+                    class="footer__list-img"
+                    src="Dl/pinterest.svg"
+                    alt="Pinterest"
+                  />
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img class="footer__list-img" src="Dl/inst.svg" alt="Inst" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper wrapper__space-betw">
+        <div class="nav-btn">
+          <span class="footer-under">Company Rating</span>  
+        </div>
+        <div class="nav-btn">
+          <span class="footer-under">Copyright © 2018 Dlk • Design Life Kids</span>     
+        </div>
+         <div class="nav-btn">
+          <a class="under-link" href="#">Web Design — Direct Line Development</a>  
         </div>
       </div>
   </footer>

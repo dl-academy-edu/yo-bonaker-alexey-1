@@ -1,15 +1,10 @@
-.blog {
-    max-width: 1400px;
-    margin: auto;
-}
-
-ul {
-    list-style-type: none;
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .title {
     padding-top: 10px;
-    padding-left: 110px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -31,19 +26,19 @@ ul {
 
 .switch-catalog {
     margin-top: -10px;
-    padding-left: 74px;
 }
 
 .switch-catalog__list {
     display: flex;
     align-items: center;
+    margin-left: -40px;
     gap: 20px;
 }
 
 .cardf__list {
     display: flex;
     margin-top: 50px;
-    padding-left: 110px;
+    margin-left: -40px;
     max-width: 380px;
 }
 
@@ -53,7 +48,7 @@ ul {
 
 .cardt__list {
     display: flex;
-    padding-left: 110px;
+    margin-left: -40px;
     max-width: 380px;
 }
 

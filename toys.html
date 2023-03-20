@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css/header.css" />
     <link rel="stylesheet" href="./style.css/normalize.css" />
-    <link rel="stylesheet" href="./style.css/contact us.css">
     <link rel="stylesheet" href="./style.css/footer.css" />
     <link rel="stylesheet" href="./style.css/common.css">
+    <link rel="stylesheet" href="style.css/toys.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;600;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Toys</title>
 </head>
-<body class="contactus">
+<body class="body">
     <header class="header container">
         <div class="header__topbar">
           <a class="header__list-link" href="/"
@@ -40,46 +40,99 @@
         </div>
       </header>
       <main class="main">
-        <h1 class="title">Contact Us</h1>
-        <div class="switch-catalog">
+        <div class="switch__catalog container">
+          <h1 class="categoty-title">Toy for kids</h1>
           <ul class="switch-catalog__list">
-            <li class="switch-item"><a href="#" class="switch-link"><em>Home</em></a></li>
-            <li class="switch-item"><img src="Dl/rightC.svg" alt="vector" class="switch-img"></li>
-            <li class="switch-item"><a href="#" class="switch-link"><em>Conatct us</em></a></li>
+            <li><a href="#" class="switch-link"><em>Home</em></a></li>
+            <li><img src="Dl/rightC.svg" alt="vector" class="switch-img"></li>
+            <li><a href="#" class="switch-link"><em>Catalog</em></a></li>
+            <li><img src="Dl/rightC.svg" alt="vector" class="switch-img"></li>
+            <li><a href="#" class="switch-link"><em>Toys</em></a></li>
           </ul>
         </div>
-        <div class="popup">
-            <form action="#" class="form">
-              <div class="form__inner">
-                <label class="titleform" for="name">Name
-                  <input class="iname" type="text" id="name">
-              </label>
-              </div>
-                <div class="form__wrapper">
-                    <label class="titleform" for="phone">Phone
-                        <input class="iwrapper" type="number" id="phone">
-                    </label>
-                    <label class="titleform" for="email">Email
-                        <input class="iwrapper" type="email" id="email">
-                    </label>
-                </div>
-                <label class="titleform" for="message">Message
-                    <input class="imessage" type="text" id="message">
-                </label>
-                <div class="cbox">
-                    <input class="icbx" type="checkbox">
-                    <p class="textpopup">By clicking on the button, you consent to the processing of your personal data</p>
-                </div>
-                <button class="btnt" type="submit">SUBMIT</button>
-            </form> 
-        </div>
-        <div class="textright">
-            <ul class="textright__list">
-            <p class="contentright">Our support team are on-hand to assist with any issues you are experiencing.</p>
-            <p class="contentright">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-            <h2 class="titleright">An expert is waiting to help you!</h2>
+          <div class="checkbox container">
+            <div class="slider">
+              <h2 class="checkbox-title">Cost</h2>
+              <input type="range" min="0" max="500" step="1" value="50"> 
+            </div>
+            <div class="cbcolor">
+              <h2 class="checkbox-title">Color</h2>
+              <input type="checkbox" id="Black">
+              <label for="Black">Black</label>
+              <input type="checkbox" id="Blue">
+              <label for="Blue">Blue</label>
+              <input type="checkbox" id="Green">
+              <label for="Green">Green</label>
+              <input type="checkbox" id="White">
+              <label for="White">White</label>
+            </div>
+            <div class="cbdelivery">
+              <h2 class="checkbox-title">Delivery</h2>
+              <input type="checkbox" id="Free shipping">
+              <label for="Free shipping">Free shipping</label>
+              <input type="checkbox" id="Fast shipping">
+              <label for="Fast shipping">Fast shipping</label>
+            </div>
+            <div class="cbamount">
+              <h2 class="checkbox-title">Amount</h2>
+              <label><input type="radio">0-5</label>
+              <label><input type="radio">10-20</label>
+              <label><input type="radio">20-50</label>
+            </div>
+            <div class="cbxbtn">
+              <button class="cbbtn" type="submit">APPLY</button>
+            </div>
+          </div>
+          <div class="prodf container">
+            <ul class="prodf__list">
+              <li class="prodf__list-item">
+                <a href="#" class="prodf-link"><img src="Dl/shark.svg" alt="shark"></a>
+                <a href="#" class="prodf-linkf">SHARKY BEAN BAG CHAIR COVER</a>
+                <a href="#" class="prodf-linkt">$60.00 USD</a>
+              </li>
+              <li class="prodf__list-item">
+                <a href="#" class="prodf-link"><img src="Dl/ring.svg" alt="ring"></a>
+                <a href="#" class="prodf-linkf">BRASS DECO FRAMES</a>
+                <a href="#" class="prodf-linkt">$66.00 USD</a>
+              </li>
+              <li class="prodf__list-item">
+                <a href="#" class="prodf-link"><img src="Dl/apron.svg" alt="apron"></a>
+                <a href="#" class="prodf-linkf">CIBO FULL APRON</a>
+                <a href="#" class="prodf-linkt">$60.00 USD</a>
+              </li>
             </ul>
-        </div>
+          </div>
+          <div class="prodt container">
+            <ul class="prodt__list">
+              <li class="prodt__list_item">
+                <a href="#" class="prodt-link"><img src="Dl/loto.svg" alt="loto"></a>
+                <a href="#" class="prodt-linkf">GATCHA GATCHA GUMBALL MACHINE</a>
+                <a href="#" class="prodt-linkt">$56.00 USD</a>
+              </li>
+              <li class="prodf__list_item">
+                <a href="#" class="prodt-link"><img src="Dl/candle.svg" alt="candle"></a>
+                <a href="#" class="prodt-linkf">CHRISTMAS ADVENT SCENTED CANDLE</a>
+                <a href="#" class="prodt-linkt">$29.00 USD</a>
+              </li>
+              <li class="prodt__list_item">
+                <a href="#" class="prodt-link"><img src="Dl/lamp.svg" alt="lamp"></a>
+                <a href="#" class="prodt-linkf">TANGLE SPINNING TEA LIGHT</a>
+                <a href="#" class="prodt-linkt">$56.00 USD</a>
+              </li>
+            </ul>
+          </div>
+          <div class="switch-under container">
+            <a class="switch-linkt" href="#">1</a>
+            <a class="switch-linkt" href="#">2</a>
+            <a class="switch-linkt" href="#">3</a>
+            <a class="switch-linkt" href="#">4</a>
+          </div>
+          <div class="switch__btn container">
+            <ul class="switch__btn__list">
+              <li class="switch-btn-item"><button class="switch-btn"><img src="Dl/vectorblogl.svg" alt="left"></button></li>
+              <li class="switch-btn-item"><button class="switch-btn"><img src="Dl/vectorblogr.svg" alt="right"></button></li>
+            </ul>
+          </div>
       </main>
       <footer class="footer container">
         <div class="wrapper">
