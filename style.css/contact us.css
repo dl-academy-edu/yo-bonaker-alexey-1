@@ -1,0 +1,146 @@
+.contactus {
+    max-width: 1400px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main {
+    margin-bottom: 384px;
+}
+
+.title {
+    padding-left: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.switch-catalog__list {
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.switch-item {
+    padding-right: 20px;
+}
+
+.switch-link {
+    text-decoration: none;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.popup {
+   background: #E5EAF8;
+   margin-left: 110px;
+   margin-top: 50px;
+   max-width: 680px;
+   padding: 20px 42px;
+}
+
+.titleform {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-top: 20px;
+}
+
+.form__wrapper {
+    display: flex;
+    gap: 20px;    
+}
+
+.iname {
+    width: 600px;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.imessage {
+    width: 600px;
+    height: 150px;
+    margin-top: 3px;
+}
+
+.iwrapper {
+    width: 288px;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.cbox {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.btnt {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-top: 17px;
+    padding: 9px 22px;
+}
+
+.textright__list {
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    padding-left: 900px;
+    margin-top: -580px;
+}
+
+.contentright {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+
+.titleright {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+.textpopup {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
